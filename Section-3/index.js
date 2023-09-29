@@ -9,6 +9,9 @@ const user_input = parseInt(prompt('Enter a number, please:'));
 
 const primeNumbers = [];
 for (let i = 2; i <= user_input; i++) {
+    if(user_input % i === 0){
+     isPrime = false;
+    }
   if (isPrime(i)) {
     primeNumbers.push(i);
   }
