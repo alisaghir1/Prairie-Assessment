@@ -15,7 +15,6 @@ The following are requested:
 • Draw entities, relationships, and attributes.  
 • Show relationship cardinality. 
 • Underline the primary keys.  
-2. Design a relational schema based on the ER diagram designed in the previous point by mapping the ER design to the corresponding relational schema. 
 3. Implement the database schema using one of the relational DBMS (mysql, sql server) and add at least 4 records for each table.
 4. Write the relational algebra expressions to satisfy the following queries: 
 • Find the first name, last name, and rank for all mentors at Codi. 
